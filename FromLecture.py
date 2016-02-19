@@ -6,7 +6,7 @@ TextName = 'King-James-Bible'
 ## START OF FUNCTIONS
 
 print('opening file\n')
-input_file = open(TextName + '.txt', 'r+')
+input_file = open('Original-Texts/' + TextName + '.txt', 'r')
 	# the second parameter of both of these open functions is
 	# the permission.
 	#
@@ -15,6 +15,9 @@ input_file = open(TextName + '.txt', 'r+')
 	#					this file doesn't exit	
 	#
 	#	- 'r'  means read-only
+	#
+	# The 'Original-Texts/' part is so that it looks
+	# in the 'Original-Texts' folder
 
 print('going through every line in file. hold on a sec...')
 # store every word in here
