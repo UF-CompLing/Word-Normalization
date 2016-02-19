@@ -8,13 +8,7 @@ TextName = 'King-James-Bible'
 print('opening file\n')
 input_file = open('Original-Texts/' + TextName + '.txt', 'r')
 	# the second parameter of both of these open functions is
-	# the permission.
-	#
-	#	- 'w+' means you can write permissions, and it can 
-	#					create a new file of this name if 
-	#					this file doesn't exit	
-	#
-	#	- 'r'  means read-only
+	# the permission. 'r'  means read-only.
 	#
 	# The 'Original-Texts/' part is so that it looks
 	# in the 'Original-Texts' folder
